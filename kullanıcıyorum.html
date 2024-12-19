@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kullanıcı Yorumları</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kullanıcı Yorumları</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="reviews.html">İncelemeler</a></li>
+                <li><a href="categories.html">Kategoriler</a></li>
+                <li><a href="popular.html">Popüler İçerikler</a></li>
+                <li><a href="user_reviews.html">Kullanıcı Yorumları</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="user-reviews">
+        <h2>Yorumlar</h2>
+        <div id="commentsList">
+            <!-- Kullanıcı yorumları buraya yüklenecek -->
+        </div>
+
+        <textarea id="commentInput" placeholder="Yorum yazın..."></textarea>
+        <button onclick="submitComment()">Yorum Gönder</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Müzik ve Film İncelemeleri. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

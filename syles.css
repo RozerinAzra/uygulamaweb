@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #fff;
+}
+header {
+    background: linear-gradient(to right, #9b59b6, #8e44ad); /* Mor geçiş */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #f1c40f; 
+}
+
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #9b59b6; 
+}
+
+p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background: linear-gradient(to right, #9b59b6, #8e44ad); /* Mor geçişi */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #8e44ad, #9b59b6); /* Hoverda renk değişimi */
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+
+footer {
+    background: #8e44ad; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+    button {
+        width: 80%;
+        padding: 12px 25px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+}
